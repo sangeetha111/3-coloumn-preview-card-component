@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding:0;
+    Font-size: 15px;
+    font-family:"Lexend Deca ", sans-serif;
+}
+.container{
+margin:100px 100px 100px 100px;
+font-family:"lexend Deca";
+}
+ div.b1{
+     text-align: left;
+    background-color: hsl(31, 55%, 54%);
+    padding:25px 35px 50px 25px;
+    position:relative;
+    border-radius: 10px 10px 0 0;
+
+}
+/*margin: 25px 50px 0px;
+background-color: lightblue;*/
+div.b2{
+    text-align: left;
+    background-color: hsl(184, 100%, 22%);
+    position:relative;
+    padding:25px 35px 50px 25px;
+ 
+}div.b3{
+    text-align: left;
+    background-color: hsl(179, 100%, 13%);
+    position:relative;
+    padding:25px 35px 50px 25px;
+    border-radius: 0 0 10px 10px;
+
+} 
+   h1{
+     color:hsl(0, 9%, 96%);
+     font-family:"Lexend Deca";
+     text-transform: uppercase;
+}
+p{
+    color:hsl(0, 9%, 96%);
+    font-family:"lexend Deca";
+    text-transform: lowercase;
+}
+
+ .b1 .button  {
+    background-color:hsl(0, 9%, 96%);
+    border :none;
+    border-radius:30px 30px 30px 30px;
+    color: hsl(31, 55%, 54%) ;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  .b2 .button  {
+    background-color:hsl(0, 9%, 96%);
+    border :none;
+    border-radius:30px 30px 30px 30px;
+    color: hsl(184, 100%, 22%);
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+  .b3 .button  {
+    background-color:hsl(0, 9%, 96%);
+    border :none;
+    border-radius:30px 30px 30px 30px;
+    color: hsl(179, 100%, 13%);
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  @media (min-width:768px){
+    .container{
+        display: flex;
+        flex-direction:unset;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+        padding: 0;
+
+    }
+    .container .b1{
+     
+    
+        text-align: left;
+       background-color: hsl(31, 55%, 54%);
+      
+        padding:25px 35px 50px 25px;
+       position:relative;
+       border-radius: 10px 0px 0px 10px;
+   
+   }
+  .container .b2{
+    
+    text-align: left;
+    background-color: hsl(184, 100%, 22%);
+    position:relative;
+    padding:25px 35px 50px 25px;
+ 
+}
+.container .b3{
+  
+    text-align: left;
+    background-color: hsl(179, 100%, 13%);
+    position:relative;
+    padding:25px 35px 50px 25px;
+    border-radius: 0 10px 10px 0;
+}
